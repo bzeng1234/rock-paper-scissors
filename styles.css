@@ -1,0 +1,33 @@
+h1 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: lightgreen;
+    border: 3px solid maroon;
+    width: auto;
+    padding: 20px;
+}
+
+button {
+    height: 500px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.Rock {
+    background-image: url(images/rock.jpg);
+}
+
+.Paper {
+    background-image: url(images/paper.jpeg);
+}
+
+.Scissor {
+    background-image: url(images/scissors.jpg);
+}
